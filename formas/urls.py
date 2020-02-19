@@ -20,4 +20,6 @@ import perros.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('register_cliente/', perros.views.Register_Cliente, name='register_cliente'),
+    path('register_mascota/', perros.views.Register_Mascota, name='register_mascota'),
+    path('register_paseador/', perros.views.Register_Paseador, name='register_paseador')
 ]
