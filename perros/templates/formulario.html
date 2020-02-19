@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="/static/css/formulario.css">
+    <link rel="stylesheet" href="/static/css/reset.css">
     
 </head>
 <body>
@@ -12,10 +14,10 @@
         <div class="titulo">
             <h1>Tus Datos</h1>
         </div>
-            {{form.nombre}}
-            {{form.apellido}}
-            {{form.telefono}}
-            {{form.direccion}}
+            nombre  {{form.nombre}}
+            apellido {{form.apellido}}
+            telefono {{form.telefono}}
+            direccion {{form.direccion}}
             <div class="row">
                 <button type="submit" >Enviar</button>
                 <button type="reset">Limpiar</button>
